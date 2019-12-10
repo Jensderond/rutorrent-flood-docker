@@ -1,7 +1,4 @@
-ARG BASEIMAGE_VERSION
-FROM lsiobase/alpine:$BASEIMAGE_VERSION
-
-MAINTAINER romancin
+FROM lsiobase/alpine:3.8
 
 # set version label
 ARG BUILD_DATE
